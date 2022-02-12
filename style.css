@@ -1,0 +1,215 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+ 
+img{
+    max-width: 100%;
+}
+/* Header part css */
+.rakib-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.rakib-header span{
+    display: inline-block;
+    background: #6578da;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+.rakib-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* header hover part */
+
+
+/* banner part css */
+.banner-section{
+    background: url("https://i.ibb.co/4Nf04tL/mbr-10.jpg")no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.banner-caption h4{
+    margin-bottom: 35px;
+}
+.banner-caption h1{
+    margin-bottom: 50px;
+    font-size: 42px;
+}
+.banner-btn1{
+    color: white;
+    background: #5ba533;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    transition: .5s;
+}
+.banner-btn1:hover{
+    color: #6578d9;
+    box-shadow: 1px 2px 9px 2px #6578d9;
+    background: white;
+}
+.banner-section .form-control{
+    padding: 18px 20px;
+}
+
+/* About part css */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 22px;
+}
+/* Feature item part css */
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-text-sec{
+    width: 60%;
+    padding: 25px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+/* portfolio hover part css */
+.portfolio-item{}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(101, 120, 218,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* pricing table part css */
+.pricing-table-section{
+    background-color: #f7f9ff;
+}
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow:  2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 5px;
+    transition: .5s;
+}
+.pricing-item:hover a{
+    background-color: #6578da;
+    color: #fff;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    color: #6578da;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-button{}
+.pricing-button a{
+    border-color: #6578da;
+    color: #6578da;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    transition: .5s;
+}
+.pricing-button a:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: none;
+}
+
+/* textimonial part css */
+.author-info img{
+    width: 70px;
+    margin-right: 18px;
+}
+.author-info{
+    width: 200px;
+    margin: auto;
+}
+.user-info{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+/* Details part css */
+.details-section{
+    background-color: #f6f8ff;
+}
+.details-item {
+    margin-top: 80px;
+}
+.details-item .card{}
+.details-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+/* about section css */
+.about-content-form .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
