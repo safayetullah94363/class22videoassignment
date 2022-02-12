@@ -213,3 +213,39 @@ img{
     box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
     padding: 40px;
 }
+/*  */
+.btn1 {
+    background: #fff;
+    color: #40a44d;
+    font-weight: 600;
+    padding: 10px 24px;
+    border: 2px solid #40a44d;
+}
+.btn2 {
+    background: #4fa542;
+    padding: 11px 24px;
+    font-weight: 600;
+    transition: .5s;
+    box-shadow: 2px 2px 15px #40a44d7a;
+}
+.btn2:hover {
+    background: #000;
+    color: #fff;
+}
+.btn1:hover{
+    background: #40a44d;
+    color: #fff;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 15px #40a44d7a;
+}
+/*  */
+.get-image{
+    margin: auto;
+}
+.get-image img{
+    width: 50%;
+}
+/* footer part css */
+.footer-section{
+    background-color: #f7f9ff;
+}
